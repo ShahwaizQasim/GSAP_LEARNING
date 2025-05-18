@@ -2,4 +2,65 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+
+#box1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 10px;
+}
+
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 10px;
+}
+
+#box3{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 10px;
+}
+
+#box4{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 10px;
+}
+#box5{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 10px;
+}
+#box6{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    margin: 10px;
+}
+
+/* navbar */
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 40px;
+    margin-top: 20px;
+}
+
+#nav-links{
+    display: flex;
+    gap: 22px;
 }
