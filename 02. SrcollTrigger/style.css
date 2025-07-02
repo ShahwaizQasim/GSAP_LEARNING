@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.page1 {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.page3 {
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: yellow;
+}
+
+.page2 h1 {
+    color: black;
+    font-size: 50px;
+    text-transform: capitalize;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.page2 h2 {
+    color: black;
+    font-size: 50px;
+    text-transform: capitalize;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.page3 h1 {
+    color: black;
+    font-size: 50px;
+    text-transform: capitalize;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.page3 h2 {
+    color: black;
+    font-size: 50px;
+    text-transform: capitalize;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#page4 {
+    padding-block: 100px;
+    background-color: black;
+}
+
+#page4 h1 {
+    color: white;
+    font-size: 40vw;
+    text-transform: uppercase;
+}
